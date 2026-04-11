@@ -1,0 +1,20 @@
+{
+  "name": "kai-finance-poc",
+  "version": "1.0.0",
+  "description": "Proof of Concept exploits for KAI Finance Yield Protocol",
+  "main": "index.js",
+  "scripts": {
+    "finding1": "ts-node finding_1_poc.ts",
+    "finding2": "ts-node finding_2_poc.ts",
+    "finding4": "ts-node finding_4_poc.ts",
+    "finding5": "ts-node finding_5_poc.ts",
+    "finding6": "ts-node finding_6_poc.ts"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.38.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
