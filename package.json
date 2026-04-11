@@ -1,6 +1,7 @@
 {
   "name": "kai-finance-poc",
   "version": "1.0.0",
+  "type": "module",
   "description": "Proof of Concept exploits for KAI Finance Yield Protocol",
   "main": "index.js",
   "scripts": {
