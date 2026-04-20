@@ -1,6 +1,5 @@
 # KAI Finance Security Research - POC Repo
-
-This repository contains professional-grade Proof of Concept (POC) exploits and technical analysis for the **KAI Finance Yield Protocol** on Sui.
+Proof of Concept (POC) exploits and technical analysis for the **KAI Finance Yield Protocol** on Sui.
 
 ## Overview
 
@@ -28,20 +27,3 @@ KAI Finance is a leveraged yield protocol built on the Sui blockchain. Our audit
 **Code**: `kai/sav/core/sources/vault.move`
 `deposit` function
 **POC**: [finding_2_poc.move](finding_2_poc.move)
-
-## Usage
-
-Install dependencies:
-```bash
-npm install
-```
-
-Run POC analysis:
-```bash
-npm run finding1
-sui move test
-```
-
-## Disclaimer
-
-This repository is for educational and bug bounty purposes only.
